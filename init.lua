@@ -44,7 +44,6 @@ return {
         -- "lua_ls",
         "tsserver",
         "eslint",
-        "volar",
       },
       timeout_ms = 1000, -- default format timeout
       -- filter = function(client) -- fully override the default formatting function

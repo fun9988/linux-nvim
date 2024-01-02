@@ -18,6 +18,12 @@ return {
     --   desc = "Previous buffer",
     -- },
 
+    ["<C-p>"] = {
+      function() require("telescope.builtin").find_files { hidden = true, no_ignore = true } end,
+      desc = "Find all files",
+    },
+
+
     -- mappings seen under group name "Buffer"
     ["<leader>bD"] = {
       function()
